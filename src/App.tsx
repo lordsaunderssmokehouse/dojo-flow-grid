@@ -8,6 +8,8 @@ import { TopBar } from "./components/TopBar";
 import Dashboard from "./pages/Dashboard";
 import Train from "./pages/Train";
 import Knowledge from "./pages/Knowledge";
+import Calendar from "./pages/Calendar";
+import Progress from "./pages/Progress";
 import PrintGup from "./pages/PrintGup";
 import Settings from "./pages/Settings";
 import NotFound from "./pages/NotFound";
@@ -28,6 +30,8 @@ const App = () => (
                 <Route path="/" element={<Dashboard />} />
                 <Route path="/train" element={<Train />} />
                 <Route path="/knowledge" element={<Knowledge />} />
+                <Route path="/calendar" element={<Calendar />} />
+                <Route path="/progress" element={<Progress />} />
                 <Route path="/print/gup" element={<PrintGup />} />
                 <Route path="/settings" element={<Settings />} />
                 {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
